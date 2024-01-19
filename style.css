@@ -1,0 +1,194 @@
+h1,h2,h3,h4, ul,ol,dt, li{
+    margin: 0;
+}
+
+body{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 798px;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 20px 26px 12px 27px;
+    box-sizing: border-box;  
+    margin-top: 24px;
+    gap: 16px; 
+}
+
+.apron{
+    margin-top: 37px;
+}
+h1{
+    color: #FF6A28;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;   
+}
+
+h2{
+    color: #61656D;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+
+.brownie-image{
+    width: 745px;
+    height: 389px;    
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card-box{
+    width: 118px;
+    height: 85px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card-icon{
+    width: 20px;
+    height: 20.14px;
+    margin: 14px 49px 4.86px 49px;
+}
+.card-service{
+    width: 20px;
+    height: 14px;
+    margin: 17px 49px 8px 49px;
+}
+.card-fav{
+    width: 20px;
+    height: 18.35px;
+    margin: 15px 49px 5.65px 49px;
+}
+.card-chat{
+    width: 20px;
+    margin: 14px 48px 5px 50px;
+}
+.icon-maker{
+    width: 60px;
+    height: 60px;
+    margin: 12px 11px 13px 19px;
+}
+
+.card-title{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #61656D;
+    
+}
+.card-info{
+    color: #FF6A28;
+    font-size: 14px;
+    text-transform: uppercase;    
+}
+.card-box-maker{
+    width: 238px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    display: flex;
+}
+.box-title{
+    display: inline;
+    justify-items: center;
+    align-items: center;
+    margin-top: 26px;    
+}
+.subtitle-maker{
+    color: #FF6A28;
+    font-size: 14px;
+    font-weight: 700;
+}
+.card-info-maker{
+    font-size: 14px;
+    color: #61656D;
+    font-weight: 400;
+}
+.apron-box{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 16px;
+}
+.preparation-box{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    
+}
+.icon-apron{
+    width: 20px;
+    height: 23.2px;
+}
+.icon-pan{
+    width: 20px;
+    height: 18.2px;
+}
+.ingrediente-list{
+    color: #FF6A28;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+.preparation-list{
+    color: #FF6A28;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+li{
+    font-size: 14px;
+    color:#61656D;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+ol,li{
+    font-size: 14px;
+    color:#61656D;
+    margin-bottom: 20px;
+}
+.general-box{
+    background-color: #f0f0f0;
+    width: 754px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.subtitle-general{
+    font-size: 16px;
+    color: #61656D;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.info-general{
+    color: #61656D;
+    font-size: 14px;
+    font-weight: 400;   
+    margin-bottom: 63px;  
+}
